@@ -44,7 +44,7 @@ ypredconfprob_all=[]
 
 rf=RandomForestClassifier(random_state=randomseed, n_estimators=10)
 rf.fit(xtrain,ytrain)
-print('original score',m.accuracy_score(ytest,rf.predict(xtest)))
+print('original score',m.f1_score(ytest,rf.predict(xtest),average='weighted'))
 
 
 
@@ -53,10 +53,10 @@ print('original score',m.accuracy_score(ytest,rf.predict(xtest)))
 rf=RandomForestClassifier(random_state=randomseed, n_estimators=10)
 rf.fit(xtrain,ytrain)
 rfpred=rf.predict(xtest)
-print(m.accuracy_score(ytest,rfpred))
+print(m.f1_score(ytest,rfpred,average='weighted'))
 
 clf.append(rf)
-acc.append(m.accuracy_score(ytest,rfpred))
+acc.append(m.f1_score(ytest,rfpred,average='weighted'))
 ypredproba_all.append(rf.predict_proba(xtest))
 
 confmat=m.confusion_matrix(ytest,rfpred)
@@ -71,10 +71,10 @@ svc=svmgpu(random_state=randomseed,probability=True,C=100,gamma=0.0001)
 svc.fit(xtrain,ytrain)
 
 svcpred=svc.predict(xtest)
-print(m.accuracy_score(ytest,svcpred))
+print(m.f1_score(ytest,svcpred,average='weighted'))
 
 clf.append(svc)
-acc.append(m.accuracy_score(ytest,svcpred))
+acc.append(m.f1_score(ytest,svcpred,average='weighted'))
 ypredproba_all.append(svc.predict_proba(xtest))
 
 confmat=m.confusion_matrix(ytest,svcpred)
@@ -89,11 +89,11 @@ xgbc=xgb.XGBClassifier(random_state=randomseed,n_estimators=100)
 xgbc.fit(xtrain,ytrain)
 
 xgbpred=xgbc.predict(xtest)
-print(m.accuracy_score(ytest,xgbpred))
+print(m.f1_score(ytest,xgbpred,average='weighted'))
 
 
 clf.append(xgbc)
-acc.append(m.accuracy_score(ytest,xgbpred))
+acc.append(m.f1_score(ytest,xgbpred,average='weighted'))
 ypredproba_all.append(xgbc.predict_proba(xtest))
 
 confmat=m.confusion_matrix(ytest,xgbpred)
@@ -111,7 +111,7 @@ _xgb_p=weightvalga[2]*ypredproba_all[2]
 
 _temp=np.argmax(_rf_p+_svm_p+_xgb_p,axis=1)
 
-print(m.accuracy_score(ytest,_temp))
+print(m.f1_score(ytest,_temp,average='weighted'))
 
 
 
