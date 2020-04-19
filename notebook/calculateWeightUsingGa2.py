@@ -23,8 +23,8 @@ def fitness(individual, data):
     for i in range(len(individual)-1):
         if(individual[i]>individual[i+1]):
             val=0     
-    # if val > 1:
-    #     val=0   
+#     if val > 1:
+#         val=0   
                  
     return val
 
