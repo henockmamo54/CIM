@@ -110,14 +110,14 @@ print(m.f1_score(ytest,rfpred,average='weighted'))
 
 clf.append(rf)
 acc.append(m.f1_score(ytest,rfpred,average='weighted'))
-ypredproba_all.append(rf.predict_proba(xtest))
+ypredproba_all.append(rf.predict_proba(xtest)[:,0])
 
 confmat = m.confusion_matrix(ytest, rfpred)
 confsumh = np.sum(confmat, axis=0)
 propconfmat = confmat.copy()
 for i in range(propconfmat.shape[0]):
     propconfmat[:, i] = 100 * propconfmat[:, i] / confsumh[i]
-ypredconfprob_all.append(propconfmat / 100)
+ypredconfprob_all.append(propconfmat.ravel() / 100)
 
 
 #=================================================
