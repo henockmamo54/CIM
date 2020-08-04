@@ -1,0 +1,85 @@
+Features,Accuracy,Precision,Recall,F1-score,CV_Accuracy,CV_Accuracy_std,Model
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.743,0.74,0.743,0.741,0.724,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Smoking', 'Drinking', 'Family history', 'SEX', 'AGE']",0.743,0.749,0.743,0.746,0.751,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Drinking', 'Family history', 'SEX', 'AGE']",0.742,0.739,0.742,0.74,0.726,0.029,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Smoking', 'Drinking', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.74,0.737,0.74,0.738,0.727,0.031,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'Uric acid', 'Smoking', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.74,0.737,0.74,0.738,0.72,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Drinking', 'SEX', 'AGE']",0.738,0.736,0.738,0.737,0.726,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Physical activity', 'SEX', 'AGE']",0.738,0.736,0.738,0.737,0.719,0.032,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.737,0.734,0.737,0.735,0.722,0.028,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Drinking', 'Family history', 'AGE']",0.737,0.734,0.737,0.735,0.726,0.03,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Family history', 'SEX', 'AGE']",0.737,0.743,0.737,0.739,0.753,0.037,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Uric acid', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.737,0.741,0.737,0.739,0.752,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'Uric acid', 'Smoking', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.748,0.745,0.748,0.747,0.722,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Smoking', 'Family history', 'SEX', 'AGE']",0.747,0.755,0.747,0.75,0.751,0.037,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Drinking', 'Physical activity', 'AGE']",0.742,0.739,0.742,0.74,0.725,0.03,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Family history', 'SEX', 'AGE']",0.742,0.739,0.742,0.74,0.722,0.029,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Drinking', 'Physical activity', 'AGE']",0.742,0.751,0.742,0.745,0.753,0.039,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.74,0.748,0.74,0.743,0.75,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Smoking', 'Drinking', 'Physical activity', 'SEX', 'AGE']",0.74,0.737,0.74,0.738,0.726,0.03,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Smoking', 'Drinking', 'Family history', 'SEX', 'AGE']",0.74,0.746,0.74,0.742,0.75,0.039,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'Uric acid', 'Smoking', 'Physical activity', 'SEX', 'AGE']",0.74,0.737,0.74,0.738,0.723,0.03,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Smoking', 'Drinking', 'Physical activity', 'SEX', 'AGE']",0.738,0.747,0.738,0.742,0.749,0.039,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Physical activity', 'SEX', 'AGE']",0.738,0.736,0.738,0.737,0.723,0.03,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Smoking', 'SEX', 'AGE']",0.75,0.758,0.75,0.753,0.75,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'Family history', 'AGE']",0.748,0.746,0.748,0.747,0.721,0.03,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Smoking', 'Family history', 'SEX', 'AGE']",0.748,0.755,0.748,0.751,0.745,0.037,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'SEX', 'AGE']",0.743,0.75,0.743,0.746,0.749,0.038,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'Uric acid', 'Smoking', 'SEX', 'AGE']",0.74,0.737,0.74,0.739,0.721,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'r-GTP gamma', 'Family history', 'SEX', 'AGE']",0.74,0.745,0.74,0.742,0.749,0.037,RF
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'Smoking', 'SEX', 'AGE']",0.74,0.738,0.74,0.739,0.72,0.028,SVM
+"['FPG', 'HbA1c', 'Smoking', 'Drinking', 'Physical activity', 'Family history', 'SEX']",0.747,0.744,0.747,0.745,0.729,0.011,SVM
+"['FPG', 'HbA1c', 'BMI', 'r-GTP gamma', 'Uric acid', 'SEX', 'AGE']",0.747,0.755,0.747,0.75,0.75,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'Uric acid', 'Smoking', 'SEX', 'AGE']",0.742,0.752,0.742,0.745,0.746,0.038,RF
+"['FPG', 'HbA1c', 'BMI', 'Uric acid', 'Smoking', 'SEX', 'AGE']",0.742,0.739,0.742,0.74,0.72,0.028,SVM
+"['FPG', 'HbA1c', 'BMI', 'Smoking', 'Physical activity', 'SEX', 'AGE']",0.74,0.747,0.74,0.743,0.743,0.039,RF
+"['FPG', 'HbA1c', 'Smoking', 'Drinking', 'Physical activity', 'Family history', 'SEX']",0.738,0.738,0.738,0.738,0.739,0.015,XGB
+"['FPG', 'HbA1c', 'BMI', 'Physical activity', 'Family history', 'SEX', 'AGE']",0.738,0.735,0.738,0.736,0.72,0.029,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'BMI', 'Physical activity', 'SEX', 'AGE']",0.738,0.735,0.738,0.737,0.72,0.029,SVM
+"['FPG', 'HbA1c', 'Smoking', 'Physical activity', 'Family history', 'SEX']",0.753,0.751,0.753,0.752,0.723,0.013,SVM
+"['FPG', 'HbA1c', 'BMI', 'Smoking', 'SEX', 'AGE']",0.75,0.758,0.75,0.753,0.743,0.039,RF
+"['FPG', 'HbA1c', 'Smoking', 'Physical activity', 'Family history', 'SEX']",0.748,0.756,0.748,0.751,0.759,0.017,RF
+"['FPG', 'HbA1c', 'Smoking', 'Physical activity', 'Family history', 'SEX']",0.747,0.748,0.747,0.747,0.736,0.015,XGB
+"['FPG', 'HbA1c', 'Smoking', 'Family history', 'SEX', 'AGE']",0.747,0.756,0.747,0.75,0.732,0.04,RF
+"['FPG', 'HbA1c', 'BMI', 'Physical activity', 'SEX', 'AGE']",0.745,0.755,0.745,0.749,0.741,0.038,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'Uric acid', 'SEX', 'AGE']",0.745,0.753,0.745,0.748,0.746,0.037,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'Family history', 'SEX', 'AGE']",0.745,0.754,0.745,0.748,0.741,0.038,RF
+"['FPG', 'HbA1c', 'Drinking', 'Family history', 'SEX']",0.75,0.755,0.75,0.752,0.76,0.016,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'Physical activity', 'SEX']",0.747,0.753,0.747,0.749,0.767,0.015,RF
+"['FPG', 'HbA1c', 'Uric acid', 'Physical activity', 'SEX']",0.747,0.747,0.747,0.747,0.736,0.014,XGB
+"['FPG', 'HbA1c', 'Smoking', 'Physical activity', 'SEX']",0.747,0.747,0.747,0.747,0.737,0.015,XGB
+"['FPG', 'HbA1c', 'Drinking', 'Family history', 'SEX']",0.747,0.744,0.747,0.745,0.724,0.01,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'Physical activity', 'SEX']",0.745,0.742,0.745,0.743,0.724,0.01,SVM
+"['FPG', 'HbA1c', 'Physical activity', 'Family history', 'SEX']",0.745,0.746,0.745,0.746,0.735,0.014,XGB
+"['FPG', 'HbA1c', 'Uric acid', 'SEX', 'AGE']",0.745,0.758,0.745,0.749,0.741,0.039,RF
+"['FPG', 'HbA1c', 'Drinking', 'Physical activity', 'SEX']",0.743,0.744,0.743,0.743,0.737,0.013,XGB
+"['FPG', 'HbA1c', 'Family history', 'SEX', 'AGE']",0.743,0.754,0.743,0.747,0.732,0.04,RF
+"['FPG', 'HbA1c', 'Uric acid', 'Smoking', 'AGE']",0.742,0.751,0.742,0.745,0.744,0.04,RF
+"['FPG', 'HbA1c', 'Drinking', 'SEX']",0.748,0.756,0.748,0.751,0.76,0.018,RF
+"['FPG', 'HbA1c', 'Physical activity', 'SEX']",0.747,0.748,0.747,0.747,0.737,0.015,XGB
+"['FPG', 'HbA1c', 'Drinking', 'SEX']",0.745,0.742,0.745,0.744,0.723,0.009,SVM
+"['FPG', 'HbA1c', 'Drinking', 'SEX']",0.743,0.744,0.743,0.743,0.738,0.012,XGB
+"['FPG', 'HbA1c', 'BMI', 'Smoking']",0.743,0.74,0.743,0.741,0.722,0.009,SVM
+"['FPG', 'HbA1c', 'Triglyceride', 'SEX']",0.743,0.743,0.743,0.743,0.737,0.013,XGB
+"['FPG', 'HbA1c', 'Smoking', 'Drinking']",0.743,0.757,0.743,0.748,0.762,0.017,RF
+"['FPG', 'HbA1c', 'Uric acid', 'SEX']",0.743,0.754,0.743,0.747,0.769,0.017,RF
+"['FPG', 'HbA1c', 'Triglyceride', 'SEX']",0.742,0.739,0.742,0.74,0.724,0.01,SVM
+"['FPG', 'HbA1c', 'r-GTP gamma', 'Drinking']",0.742,0.742,0.742,0.741,0.738,0.014,XGB
+"['FPG', 'HbA1c', 'BMI', 'Family history']",0.74,0.736,0.74,0.737,0.72,0.01,SVM
+"['FPG', 'HbA1c']",0.725,0.737,0.725,0.73,0.758,0.022,RF
+"['FPG', 'r-GTP gamma']",0.722,0.732,0.722,0.726,0.743,0.014,RF
+"['FPG', 'HbA1c', 'SEX']",0.748333333,0.747919121,0.748333333,0.74806545,0.733991583,0.011450496,XGB
+"['FPG', 'HbA1c', 'Drinking']",0.745,0.751390256,0.745,0.747415579,0.759112009,0.0164503,RF
+"['FPG', 'HbA1c', 'SEX']",0.741666667,0.748750262,0.741666667,0.74449408,0.759520914,0.019302328,RF
+"['FPG', 'HbA1c', 'Triglyceride']",0.738333333,0.73704594,0.738333333,0.737511671,0.73432247,0.013957651,XGB
+"['FPG', 'HbA1c', 'Family history']",0.738333333,0.737868022,0.738333333,0.737824189,0.731053684,0.013718722,XGB
+"['FPG', 'HbA1c', 'Physical activity']",0.736666667,0.736079262,0.736666667,0.736042265,0.734108632,0.015137242,XGB
+"['FPG', 'HbA1c', 'Smoking']",0.736666667,0.735766108,0.736666667,0.736056857,0.734030671,0.014097611,XGB
+"['FPG', 'HbA1c', 'Smoking']",0.735,0.748892503,0.735,0.739869109,0.756271383,0.018770415,RF
+"['FPG', 'HbA1c', 'r-GTP gamma']",0.735,0.734612335,0.735,0.734747081,0.736229516,0.013516415,XGB
+"['FPG', 'HbA1c', 'Family history']",0.733333333,0.745570009,0.733333333,0.73784094,0.755473706,0.020203832,RF
+"['FPG', 'HbA1c', 'Drinking']",0.733333333,0.732256615,0.733333333,0.73238838,0.735120207,0.01213636,XGB
+"['FPG', 'HbA1c', 'r-GTP gamma']",0.731666667,0.738080902,0.731666667,0.734368942,0.762595033,0.016147177,RF
+"['FPG', 'HbA1c', 'Uric acid']",0.728333333,0.740715983,0.728333333,0.732857176,0.766875836,0.017034329,RF
+"['FPG', 'HbA1c', 'Physical activity']",0.728333333,0.735707762,0.728333333,0.73137329,0.758528537,0.018734754,RF
+"['FPG', 'HbA1c', 'Triglyceride']",0.725,0.73014278,0.725,0.7271959,0.763723608,0.015468857,RF
